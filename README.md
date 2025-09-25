@@ -8,7 +8,9 @@ vim_motions = left `h` | down `j` | up `k` | right `l`
 
 - [VM](#vm)
 - [Prerequisites](#prerequisites)
+- [Alacritty](#alacritty)
 - [Brave](#brave)
+- [Zsh](#zsh)
 - [i3wm](#i3wm)
 - [Git](#git)
 - [nvim](#nvim)
@@ -62,6 +64,7 @@ If you prefer .zshenv in the `$ZDOTDIR` as well, you must setting ZDOTDIR in the
 ```sh
 export ZDOTDIR=$HOME/.config/zsh
 ```
+
 - [x] .config/zsh/.zshenv -> contain env variables must be in the home directory.
 - [x] .config/zsh/.zshrc
 - [x] .config/zsh/aliases.zsh
@@ -77,6 +80,17 @@ export ZDOTDIR=$HOME/.config/zsh
 [zsh vi mode](https://github.com/jeffreytse/zsh-vi-mode)
 
 - [x] .config/zsh/vimodes.zsh
+
+# Alacritty
+
+Official site [alacritty](https://alacritty.org/).
+A cross-platform, opengl terminal emulator. 
+
+- [x] .config/alacritty/alacritty.toml
+
+```sh
+cargo install alacritty
+```
 
 # Bat
 
