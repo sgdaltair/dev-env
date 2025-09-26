@@ -16,7 +16,8 @@ export GOROOTBIN=$GOROOT/bin
 export MYTEXLIVE=/usr/local/texlive/2023/bin/x86_64-linux
 export MYMANTEXLIVE=/usr/local/texlive/2023/texmf-dist/doc/man
 export MYINFOTEXLIVE=/usr/local/texlive/2023/texmf-dist/doc/info
-# Rust PATH=$HOME/.cargo/bin
+# Rust 
+export PATH=$HOME/.cargo/bin:$PATH
 # Add  GOBIN and GOROOTBIN to PATH
 export LBIN=$HOME/.local/bin
 export PATH=$GOROOTBIN:$GOBIN:$MYTEXLIVE:$LBIN:$PATH
