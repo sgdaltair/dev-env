@@ -45,7 +45,7 @@ The new brave browser blocks ads and trackers that slow you down and invade your
 
 Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Official site [zsh](https://www.zsh.org/).
 
-> **Require** [bat](#bat), [fzf](#fzf), [fd](#fd), [red](#redshift), [ripgrep](#ripgrep), [xclip](#xclip), [eza](#eza).
+> **Require** [bat](#bat), [fzf](#fzf), [fd](#fd), [picom](#picom), [red](#redshift), [ripgrep](#ripgrep), [xclip](#xclip), [eza](#eza).
 
 Install zsh:
 
@@ -122,6 +122,16 @@ sudo apt install fd-find
 ```
 
 > `fdfind` as the binary name fd is already used by another package. It is recommended that after installation, you add a link to fd by executing command `ln -s $(which fdfind) ~/.local/bin/fd`, in order to use `fd` in the same way as in this documentation. Make sure that $HOME/.local/bin is in your $PATH.
+
+# Picom
+
+A lightweight compositor for X11. Official site [picom](https://github.com/yshui/picom).
+
+Install picom:
+
+```sh
+sudo apt install picom
+```
 
 # Redshift
 
