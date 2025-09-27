@@ -45,7 +45,7 @@ The new brave browser blocks ads and trackers that slow you down and invade your
 
 Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Official site [zsh](https://www.zsh.org/).
 
-> **Require** [bat](#bat), [fzf](#fzf), [fd](#fd), [red](#redshift), [xclip](#xclip), [eza](#eza).
+> **Require** [bat](#bat), [fzf](#fzf), [fd](#fd), [red](#redshift), [ripgrep](#ripgrep), [xclip](#xclip), [eza](#eza).
 
 Install zsh:
 
@@ -134,6 +134,18 @@ sudo apt install redshift
 ```
 
 - [x] .config/redshift.conf
+
+# Ripgrep
+
+Official site [ripgrep](https://github.com/burntsushi/ripgrep).
+Ripgrep recursively searches directories for a regex pattern while respecting your gitignore. 
+
+Ripgrep can be installed using a binary .deb file provided in each ripgrep ripgrep:
+
+```sh
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep_14.1.1-1_amd64.deb
+sudo dpkg -i ripgrep_14.1.1-1_amd64.deb
+```
 
 # Xclip
 
