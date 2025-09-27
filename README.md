@@ -45,7 +45,7 @@ The new brave browser blocks ads and trackers that slow you down and invade your
 
 Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Official site [zsh](https://www.zsh.org/).
 
-> **Require** [bat](#bat), [fzf](#fzf), [xclip](#xclip), [eza](#eza).
+> **Require** [bat](#bat), [fzf](#fzf), [fd](#fd), [xclip](#xclip), [eza](#eza).
 
 Install zsh:
 
@@ -109,6 +109,19 @@ A command-line fuzzy finder
 ```sh
 sudo apt install fzf
 ```
+
+# Fd
+
+Official site [fd](https://github.com/sharkdp/fd).
+A simple, fast and user-friendly alternative to 'find'. 
+
+Install fd:
+
+```sh
+sudo apt install fd-find
+```
+
+> `fdfind` as the binary name fd is already used by another package. It is recommended that after installation, you add a link to fd by executing command `ln -s $(which fdfind) ~/.local/bin/fd`, in order to use `fd` in the same way as in this documentation. Make sure that $HOME/.local/bin is in your $PATH.
 
 # Xclip
 
