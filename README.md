@@ -45,7 +45,7 @@ The new brave browser blocks ads and trackers that slow you down and invade your
 
 Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Official site [zsh](https://www.zsh.org/).
 
-> **Require** [bat](#bat), [fzf](#fzf), [fd](#fd), [picom](#picom), [red](#redshift), [ripgrep](#ripgrep), [xclip](#xclip), [eza](#eza).
+> **Require** [bat](#bat), [feh](#feh), [fzf](#fzf), [fd](#fd), [picom](#picom), [red](#redshift), [ripgrep](#ripgrep), [xclip](#xclip), [eza](#eza).
 
 Install zsh:
 
@@ -99,6 +99,14 @@ A cat(1) clone with wings.
 
 ```sh
 sudo apt install bat
+```
+
+# Feh
+
+Install feh:
+
+```sh
+sudo apt install feh
 ```
 
 # Fzf
