@@ -45,7 +45,7 @@ The new brave browser blocks ads and trackers that slow you down and invade your
 
 Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Official site [zsh](https://www.zsh.org/).
 
-> **Require** [bat](#bat), [feh](#feh), [fzf](#fzf), [fd](#fd), [picom](#picom), [red](#redshift), [ripgrep](#ripgrep), [xclip](#xclip), [eza](#eza).
+> **Require** [bat](#bat), [feh](#feh), [fzf](#fzf), [fd](#fd), [picom](#picom), [polkit](#polkit), [red](#redshift), [ripgrep](#ripgrep), [xclip](#xclip), [eza](#eza).
 
 Install zsh:
 
@@ -140,6 +140,18 @@ Install picom:
 ```sh
 sudo apt install picom
 ```
+
+# Polkit
+
+PolicyKit-gnome provides a D-Bus session bus service that is used to bring up authentication dialogs used for obtaining privileges.
+
+Install polkit:
+
+```sh
+sudo apt install policykit-1-gnome
+```
+
+Added agent on `~/.config/i3/config`.
 
 # Redshift
 
