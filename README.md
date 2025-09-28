@@ -11,6 +11,7 @@ vim_motions = left `h` | down `j` | up `k` | right `l`
 - [Alacritty](#alacritty)
 - [Brave](#brave)
 - [Zsh](#zsh)
+- [Tmux](#Tmux)
 - [i3wm](#i3wm)
 - [Git](#git)
 - [nvim](#nvim)
@@ -80,6 +81,44 @@ export ZDOTDIR=$HOME/.config/zsh
 [zsh vi mode](https://github.com/jeffreytse/zsh-vi-mode)
 
 - [x] .config/zsh/vimodes.zsh
+
+# Tmux
+
+Tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. Tmux may be detached from a screen and continue running in the background, then later reattached. Official site [tmux](https://github.com/tmux/tmux).
+
+Install tmux:
+
+```sh
+sudo apt install tmux
+```
+
+> Require tmsession script.
+
+- [x] .config/tmux/tmux.conf
+
+| Keymaps              | Use                                                   |
+|:---------------------|:------------------------------------------------------|
+| `c-a`                | Tmux prefix key.                                      |
+| `c-a + s`            | Tree mode sessions.                                   |
+| `c-a + r`            | Reload `~/.config/tmux/tmux.conf`.                    |
+| `c-a + [`            | Start copy-mode.                                      |
+| `v`                  | Start selection in copy-mode.                         |
+| `y`                  | Yank selection to clipboard in copy-mode.             |
+| `c-a + f`            | New session in selected workspace.                    |
+| `c-a + d`            | New session in ~/dev/devenv.                          |
+| `c-a + n`            | New session in notes.                                 |
+| `c-a + l`            | Go to previous session.                               |
+| `c-a + t`            | Open new window and run `~/.local/bin/cht.sh`         |
+| `c-a + :`            | Command prompt.                                       |
+| `c-a + c`            | New window.                                           |
+| `c-a + &`            | Close window.                                         |
+| `c-a + n`            | Go to window `n`.                                     |
+| `c-a + $vim_motions` | Change focus pane.                                    |
+| `c-a + %`            | Split pane vertical.                                  |
+| `c-a + "`            | Split pane horizontal.                                |
+| `c-a + x`            | Kill pane.                                            |
+
+
 
 # Alacritty
 
