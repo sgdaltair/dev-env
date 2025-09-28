@@ -15,6 +15,7 @@ vim_motions = left `h` | down `j` | up `k` | right `l`
 - [i3wm](#i3wm)
 - [Git](#git)
 - [nvim](#nvim)
+- [mpv](#mpv)
 
 # VM MACHINE CONF
 
@@ -307,3 +308,19 @@ Hyperextensible vim-based text editor. Official site [nvim](https://neovim.io/).
 
 Install neovim build from [source](https://github.com/neovim/neovim/blob/master/BUILD.md).
 
+
+# Mpv
+
+Mpv is a free (as in freedom) media player for the command line. Official site [mpv](https://mpv.io/installation/).
+
+Install mpv:
+
+```sh
+sudo apt install mpv
+```
+| Keybind     | Command                 |
+|:------------|:------------------------|
+| `Alt+h`     | `add video-pan-x 0.1`   |
+| `Alt+l`     | `add video-pan-x -0.1`  |
+| `Alt+k`     | `add video-pan-y 0.1`   |
+| `Alt+j`     | `add video-pan-y -0.1`  |
