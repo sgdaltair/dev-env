@@ -16,6 +16,7 @@ vim_motions = left `h` | down `j` | up `k` | right `l`
 - [Git](#git)
 - [nvim](#nvim)
 - [mpv](#mpv)
+- [zathura](#zathura)
 
 # VM MACHINE CONF
 
@@ -324,3 +325,38 @@ sudo apt install mpv
 | `Alt+l`     | `add video-pan-x -0.1`  |
 | `Alt+k`     | `add video-pan-y 0.1`   |
 | `Alt+j`     | `add video-pan-y -0.1`  |
+
+# Zathura
+
+Zathura is a highly customizable and functional document viewer. It provides a minimalistic and space saving interface as well as an easy usage that mainly focuses on keyboard interaction. Official site [zathura](https://pwmt.org/projects/zathura).
+
+Install zathura:
+
+```sh
+sudo apt install zathura
+```
+
+- [x] .config/zathura/zathurarc
+
+| Keymaps        | Use                                                         |
+|:---------------|:------------------------------------------------------------|
+| `vim_motions`  | Moves.                                                      |
+| `shift+h`      | Go to the top of the currently selected page.               |
+| `shift+l`      | Go to the bottom of the currently selected page.            |
+| `m+n`          | New bookmark `n`.                                           |
+| `n+'`          | Load bookmark `n`.                                          |
+| `shift+f`      | Show links in the page.                                     |
+| `f`            | Load links.                                                 |
+| `a`            | Fit the height of the current page to the display window.   |
+| `s`            | Fit the width of the current page to the display window.    |
+| `c-u`          | Move the document display window half a page up.            |
+| `c-d`          | Move the document display window half a page down.          |
+| `tab`          | Index.                                                      |
+| `=`            | Reset zoom.                                                 |
+| `$zoom+=`      | Set zoom to $zoom.                                          |
+| `d`            | Booklet format.                                             |
+| `c-r`          | Recolor.                                                    |
+| `shift+r`      | Refresh document.                                           |
+| `r`            | Rotate by 90 degrees.                                       |
+| `/`            | Search term.                                                |
+| `q`            | Close.                                                      |
