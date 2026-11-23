@@ -9,3 +9,4 @@ family = "SauceCodePro Nerd Font"
 
 [window]
 opacity = 0.75
+decorations = "none"
