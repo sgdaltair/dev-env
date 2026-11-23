@@ -37,7 +37,10 @@ Menu>Devices - Insert Guest Additions CD.
 
 ```sh
 sudo apt install ninja-build gettext cmake curl build-essential
+mkdir ~/dev ~/.config/zsh ~/.config/tmux ~/.config/alacritty ~/.config/i3 ~/.config/i3status
+ln -s origin target
 ```
+
 
 # Brave
 
@@ -195,6 +198,8 @@ sudo apt install policykit-1-gnome
 Added agent on `~/.config/i3/config`.
 
 # Redshift
+
+> Archived!
 
 Redshift adjusts the color temperature of your screen according to your surroundings. This may help your eyes hurt less if you are working in front of the screen at night. Official site [redshift](https://github.com/jonls/redshift).
 
